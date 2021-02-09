@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 #
 # Simple configuration settings app for the RPi
 #
@@ -1158,5 +1157,3 @@ def main():
     finally:
         dialog.cleanup_tmp_copy_of_config()
 
-if __name__ == "__main__":
-    main()
